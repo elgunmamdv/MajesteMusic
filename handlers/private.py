@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "📚 ᴋᴏᴍᴜᴛʟᴀʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 ᴋᴀɴᴀʟ", url=f"https://t.me/BT_Resmii"
+                        "📝 ᴋᴀɴᴀʟ", url=f"https://t.me/BTresmii"
                     )
                 ]
                 
@@ -141,7 +141,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📚 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/BT_Resmii"
+                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/BTresmii"
                     )
                 ]
                 
