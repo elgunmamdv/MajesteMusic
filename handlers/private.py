@@ -8,7 +8,7 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://images.app.goo.gl/MTLXTSDCA4MLHScP7",
+                "https://telegra.ph/file/f704cca41de6f0d9dbbc4.jpg",
                 caption=(f"""● **ᴍᴇʀʜᴀʙᴀ** {message.from_user.mention} \n\n● **𝖡𝖾𝗇** {bot} !\n\n● **sᴇsʟɪ sᴏʜʙᴇᴛʟᴇʀᴅᴇ ᴍᴜ̈ᴢɪᴋ ᴄ̧ᴀʟᴀʙɪʟᴇɴ sᴇssɪᴢ sɪɴᴇᴍᴀ ᴏʏᴜɴᴜ ᴠᴇ ʏᴀş ᴛᴀʜᴍɪɴ ᴏʏɴᴀʏᴀʙɪʟᴇᴄᴇɢ̆ɪɴɪᴢ ʙᴏᴛᴜᴍ . . !** \n\n● **ʙᴀɴ ʏᴇᴛᴋɪsɪᴢ, sᴇs ʏᴏ̈ɴᴇᴛɪᴍ ʏᴇᴛᴋɪsɪ ᴠᴇʀɪᴘ ᴀsɪsᴛᴀɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇʏɪɴ . . !**"""),
          reply_markup=InlineKeyboardMarkup(
             [
@@ -19,7 +19,7 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 ᴀsɪsᴛᴀɴ", url="https://t.me/MajesteMusicAsistan"
+                        "🇹🇷 ᴀsɪsᴛᴀɴ", url="https://t.me/BT_MusicAsistan"
                     ),
                     InlineKeyboardButton(
                         "📝 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Mamdvv"
@@ -129,7 +129,8 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/MajesteMusicAsistan"
+                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/BT_MusicAsistan"
+                        
                     ),
                     InlineKeyboardButton(
                         "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/Mamdvv"
